@@ -13,9 +13,14 @@ st.title('기초로봇공학개론 수업(2024.05.23)')
 
 # 	if submit_button:
 
-uploaded_files = st.file_uploader("Choose a CSV file", accept_multiple_files=True)
-for uploaded_file in uploaded_files:
-    bytes_data = uploaded_file.read()
-    st.write("filename:", uploaded_file.name)
-    st.write(bytes_data)
+
+# Initialize connection.
+conn = st.connection("postgresql", type="sql")
+
+# Perform query.
+df = conn.query('SELECT * FROM mytable;', ttl="10m")
+
+# Print results.
+for row in df.itertuples():
+    st.write(f"{row.name} has a :{row.pet}:")
 	
