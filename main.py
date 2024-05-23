@@ -7,11 +7,7 @@ with st.form(key='my_form'):
 	text_input = st.text_input(label='조 번호')
 	genre = st.radio("성공 유무",
 	    [":rainbow[성공]", "***진행중***", "문제 발생 :movie_camera:"],
-	    captions = ["뿌듯", "기다려요", "도와줘요"])
+	    captions = ["뿌듯", "기다려주세요", "도와주세요"])
 	
-	if genre == ":rainbow[Comedy]":
-	    st.write("You selected 성공.")
-	else:
-	    st.write("You didn't select 성공.")
 	submit_button = st.form_submit_button(label='Submit')
 	
