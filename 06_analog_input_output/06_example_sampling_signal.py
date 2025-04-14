@@ -15,7 +15,7 @@ sampled_signal = np.sin(2 * np.pi * f * t_sampled)  # Sampled signal
 # Visual
 plt.figure(figsize=(10, 6))
 plt.plot(t_analog, analog_signal, label="Analog Signal", linewidth=2)
-#plt.stem(t_sampled, sampled_signal, 'r', markerfmt='ro', basefmt=" ", linefmt="r-", label="Sampled Signal")
+plt.stem(t_sampled, sampled_signal, 'r', markerfmt='ro', basefmt=" ", linefmt="r-", label="Sampled Signal")
 plt.title("Analog Signal and Sampled Signal")
 plt.xlabel("Time [s]")
 plt.ylabel("Amplitude")
