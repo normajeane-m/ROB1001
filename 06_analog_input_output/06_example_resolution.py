@@ -12,7 +12,7 @@ def adc(signal, bits):
     return quantized
 
 # 해상도 별로 그래프 그리기
-resolutions = [2]#, 3, 8]
+resolutions = [4, 8]
 
 plt.figure(figsize=(12, 8))
 for i, bits in enumerate(resolutions):
