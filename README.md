@@ -17,7 +17,7 @@ This repository includes materials for the following weeks:
 - **Week 6:** Analog signal
 ![](./figures/duty.png)
 
-![](./figures/samp.png)
+![](./figures/sampling.png)
 
 ![](./figures/resol.png)
 
