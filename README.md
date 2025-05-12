@@ -15,11 +15,11 @@
 This repository includes materials for the following weeks:  
 - **Week 5:** Digital signal
 - **Week 6:** Analog signal
-![](./figures/duty.png){: width="300"}
+![](./figures/duty.png)
 
-![](./figures/sampling.png){: width="300"}
+![](./figures/sampling.png)
 
-![](./figures/resol.png){: width="300"}
+![](./figures/resol.png)
 
 - **Week 10:** Motor control - Stepper motor
 
