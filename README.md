@@ -13,6 +13,7 @@
 ## Announcements  
 
 This repository includes materials for the following weeks:  
+- **Week 5:** Digital signal
 - **Week 6:** Analog signal
-- **Week 7:** TODO
+- **Week 10:** Motor control - Stepper motor
 
