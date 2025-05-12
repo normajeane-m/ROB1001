@@ -21,3 +21,6 @@ This repository includes materials for the following weeks:
 
 - **Week 10:** Motor control - Stepper motor
 
+<img src="figures/one_phase_on_full_step.png" width="500">
+<img src="figures/two_phase_on_full_step.png" width="500">
+<img src="figures/one_two_phase_on_half_step.png" width="500">
