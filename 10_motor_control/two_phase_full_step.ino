@@ -40,7 +40,7 @@ void fullStep(int step) {
 }
 
 void loop() {
-  for (int i = 0; i < 1024; i++) { // 1회전 (모터 스펙에 따라 조절)
+  for (int i = 0; i < 2048; i++) { // 1회전 (모터 스펙에 따라 조절)
     fullStep(i);
     delay(5); // 속도 조절 (작을수록 빠름)
   }
