@@ -2,10 +2,6 @@
 #define MOTOR_DIR1 7
 #define MOTOR_DIR2 8
 
-long previousCount = 0;            // 이전 측정 시점의 펄스 수
-float motorRPM = 0;                // 계산된 모터 RPM
-unsigned long previousTime = 0;    // 이전 시간 (millis 기준)
-
 void initMotor() {
   pinMode(MOTOR_PWM, OUTPUT);
   pinMode(MOTOR_DIR1, OUTPUT);

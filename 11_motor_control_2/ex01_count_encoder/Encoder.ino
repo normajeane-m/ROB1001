@@ -1,7 +1,6 @@
 #define ENC_CHA 3 // Ch A: Yellow
 #define ENC_CHB 2 // Ch B: Green
 
-volatile long motorCount = 0;
 
 void countEncoder() {
   if (digitalRead(ENC_CHA) == HIGH) {
